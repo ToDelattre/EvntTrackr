@@ -1,0 +1,17 @@
+{
+  "artist": "Artist",
+  "artists": "Artists",
+  "addArtist": "Add artist",
+  "viewArtist": "View artist",
+  "rateArtist": "Rate artist",
+  "performanceRating": "Performance",
+  "setlistRatingLabel": "Setlist",
+  "soundQualityRating": "Sound Quality",
+  "globalReview": "Global Review",
+  "noArtistsForEvent": "No artists for this event.",
+  "headliner": "Headliner",
+  "ratingSaved": "Rating saved successfully",
+  "artistSortOrderHeadliner": "Headliners",
+  "artistSortOrderAZ": "A-Z",
+  "artistSortOrderZA": "Z-A"
+}

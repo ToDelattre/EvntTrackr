@@ -1,0 +1,17 @@
+{
+  "welcomeTitle": "Bienvenue !",
+  "welcomeSubtitle": "Commençons par configurer tes préférences pour une expérience optimale.",
+  "languageTitle": "Langue",
+  "languageSubtitle": "Choisis ta langue préférée",
+  "themeTitle": "Thème",
+  "themeSubtitle": "Personnalise l'apparence de l'application",
+  "dateFormatTitle": "Format des dates",
+  "dateFormatSubtitle": "Comment préfères-tu lire les dates ?",
+  "readyTitle": "Tout est prêt !",
+  "readySubtitle": "Il ne te reste plus qu'à te connecter ou créer un compte pour commencer !",
+  "next": "Suivant",
+  "start": "Commencer",
+  "back": "Précédent",
+  "notificationsTitle": "Notifications",
+  "notificationsSubtitle": "Ne manque aucun de tes événements"
+}

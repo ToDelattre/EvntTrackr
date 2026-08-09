@@ -1,0 +1,9 @@
+{
+  "updateAvailable": "Update available",
+  "updateVersionReady": "A new version ({newVersion}) is here!",
+  "updateDescription": "Update the application to enjoy the latest features and security fixes.",
+  "updateNow": "Update now",
+  "updateLater": "Later",
+  "appUpToDate": "App is up to date",
+  "checkUpdate": "Check for update"
+}

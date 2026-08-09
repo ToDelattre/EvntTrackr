@@ -1,0 +1,9 @@
+{
+  "updateAvailable": "Update beschikbaar",
+  "updateVersionReady": "Een nieuwe versie ({newVersion}) is beschikbaar!",
+  "updateDescription": "Update de app om te genieten van de nieuwste functies et de beveiligingsfixes.",
+  "updateNow": "Nu bijwerken",
+  "updateLater": "Later",
+  "appUpToDate": "App is up-to-date",
+  "checkUpdate": "Controleren op updates"
+}

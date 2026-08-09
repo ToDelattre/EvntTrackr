@@ -1,0 +1,15 @@
+{
+  "titles": [
+    "Erinnerung!",
+    "Bald ist es soweit!",
+    "Mach dich bereit!",
+    "Bevorstehendes Event!"
+  ],
+  "withTicket": "{name} findet in {time} statt. Vergiss dein Ticket nicht!",
+  "withoutTicket": "{name} findet in {time} statt. Hast du dein Ticket schon?",
+  "details": "Datum: {date} • Ort: {location}",
+  "time1Week": "einer Woche",
+  "time24h": "24 Stunden",
+  "channelName": "Event-Erinnerungen",
+  "channelDesc": "Benachrichtigungen, die dich an bevorstehende Events erinnern"
+}

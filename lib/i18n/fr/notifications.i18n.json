@@ -1,0 +1,15 @@
+{
+  "titles": [
+    "Rappel !",
+    "C'est pour bientôt !",
+    "Prépare-toi !",
+    "Événement en approche !"
+  ],
+  "withTicket": "{name} a lieu dans {time}. N'oublie pas ton billet !",
+  "withoutTicket": "{name} a lieu dans {time}. As-tu pris ton billet ?",
+  "details": "Date : {date} • Lieu : {location}",
+  "time1Week": "une semaine",
+  "time24h": "24 heures",
+  "channelName": "Rappels d'événements",
+  "channelDesc": "Notifications pour te rappeler tes événements à venir"
+}

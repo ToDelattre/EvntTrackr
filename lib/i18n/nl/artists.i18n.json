@@ -1,0 +1,17 @@
+{
+  "artist": "Artiest",
+  "artists": "Artiesten",
+  "addArtist": "Artiest toevoegen",
+  "viewArtist": "Bekijk artiest",
+  "rateArtist": "Beoordeel artiest",
+  "performanceRating": "Performance",
+  "setlistRatingLabel": "Setlist",
+  "soundQualityRating": "Geluidskwaliteit",
+  "globalReview": "Globale beoordeling",
+  "noArtistsForEvent": "Geen artiesten voor dit evenement.",
+  "headliner": "Headliner",
+  "ratingSaved": "Beoordeling succesvol opgeslagen",
+  "artistSortOrderHeadliner": "Headliners",
+  "artistSortOrderAZ": "A-Z",
+  "artistSortOrderZA": "Z-A"
+}

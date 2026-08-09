@@ -1,0 +1,21 @@
+{
+  "privacyPolicy": "Politique de confidentialité",
+  "privacyPolicyTitle": "Politique de confidentialité",
+  "privacyPolicyContent": "Votre vie privée est importante pour nous.",
+  "privacy_intro_title": "1. Introduction",
+  "privacy_intro_body": "EvntTrackr s'engage à protéger vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD). Cette politique explique comment nous collectons, utilisons et protégeons vos informations.",
+  "privacy_data_collected_title": "2. Données collectées",
+  "privacy_data_collected_body": "Pour utiliser EvntTrackr, vous devez créer un compte avec une adresse e-mail et un mot de passe. Dans l'application, vous pouvez créer des événements avec un lieu, des dates et des artistes. Nous ne collectons jamais votre position en direct.",
+  "privacy_use_of_data_title": "3. Utilisation des données",
+  "privacy_use_of_data_body": "Vos données sont uniquement utilisées pour fournir les fonctionnalités de l'application. Nous ne vendons ni ne partageons vos données avec des tiers.",
+  "privacy_user_rights_title": "4. Droits des utilisateurs",
+  "privacy_user_rights_body": "En vertu du RGPD, vous disposez des droits suivants :",
+  "privacy_user_rights_list1": "Accéder à vos données",
+  "privacy_user_rights_list2": "Télécharger vos données (événements, notes, évaluations)",
+  "privacy_user_rights_list3": "Supprimer vos données ou votre compte",
+  "privacy_user_rights_list4": "Corriger ou modifier vos informations",
+  "privacy_data_retention_title": "5. Conservation des données",
+  "privacy_data_retention_body": "Vos données sont conservées tant que votre compte est actif. Vous pouvez supprimer votre compte à tout moment.",
+  "privacy_contact_title": "6. Contact",
+  "privacy_contact_body": "Pour toute question concernant vos données personnelles, veuillez nous contacter à l'adresse : evnt.trackr@gmail.com"
+}

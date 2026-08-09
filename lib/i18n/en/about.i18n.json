@@ -1,0 +1,17 @@
+{
+  "about": "About",
+  "createdBy": "Created by",
+  "version": "Version",
+  "versionHistory": "Version History",
+  "about_intro1": "As a concert enthusiast, I initially created EvntTrackr for my own needs. No more spreadsheet management headaches, just a simple and centralized experience.",
+  "about_intro2": "Convinced that the app could be useful to other enthusiasts, I decided to share it with you.",
+  "about_support_title": "Support the development",
+  "about_feedback_text": "Your feedback is precious! Feel free to share your thoughts with me:",
+  "about_email_tooltip": "Send an email",
+  "about_instagram_tooltip": "Follow on Instagram",
+  "about_donation_text": "A small gesture for a big project. If you're so inclined, you can support me with a coffee! ☕",
+  "about_kofi_button": "Buy me a coffee",
+  "about_paypal_button": "Donate",
+  "about_see_whatsnew": "See what's new",
+  "rate_us": "Rate the app"
+}

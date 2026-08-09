@@ -1,0 +1,14 @@
+{
+  "myStats": "Mijn Statistieken",
+  "totalPerformances": "Shows",
+  "mostSeenArtists": "Meest geziene artiesten",
+  "bestPerformances": "Beste optredens",
+  "festivals": "Festivals",
+  "concerts": "Concerten",
+  "eventDistribution": "Verdeling van evenementen",
+  "stats_before": "Vóór {minYearStr}",
+  "stats_email_subject": "[Statistieken]",
+  "didntFindWhatYouWereLookingFor": "Niet gevonden wat je zocht?",
+  "tellUs": "Vertel het ons",
+  "expenses": "Uitgaven"
+}

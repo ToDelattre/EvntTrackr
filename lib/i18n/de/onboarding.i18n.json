@@ -1,0 +1,17 @@
+{
+  "welcomeTitle": "Willkommen!",
+  "welcomeSubtitle": "Beginnen wir damit, Ihre Einstellungen für ein optimales Erlebnis festzulegen.",
+  "languageTitle": "Sprache",
+  "languageSubtitle": "Wählen Sie Ihre bevorzugte Sprache",
+  "themeTitle": "Design",
+  "themeSubtitle": "Passen Sie das Erscheinungsbild der App an",
+  "dateFormatTitle": "Datumsformat",
+  "dateFormatSubtitle": "Wie möchten Sie Daten am liebsten lesen?",
+  "readyTitle": "Alles bereit!",
+  "readySubtitle": "Sie müssen sich nur noch anmelden oder registrieren, um loszulegen!",
+  "next": "Weiter",
+  "start": "Starten",
+  "back": "Zurück",
+  "notificationsTitle": "Benachrichtigungen",
+  "notificationsSubtitle": "Verpasse keines deiner Events"
+}

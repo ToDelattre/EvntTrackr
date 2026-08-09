@@ -1,0 +1,21 @@
+{
+  "privacyPolicy": "Datenschutzbestimmungen",
+  "privacyPolicyTitle": "Datenschutzbestimmungen",
+  "privacyPolicyContent": "Ihre Privatsphäre ist uns wichtig.",
+  "privacy_intro_title": "1. Einführung",
+  "privacy_intro_body": "EvntTrackr verpflichtet sich, Ihre personenbezogenen Daten in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) zu schützen. Diese Richtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen.",
+  "privacy_data_collected_title": "2. Erhobene Daten",
+  "privacy_data_collected_body": "Um EvntTrackr zu nutzen, müssen Sie ein Konto mit einer E-Mail-Adresse und einem Passwort erstellen. Innerhalb der App können Sie Veranstaltungen mit einem Ort, Daten und Künstlern erstellen. Wir erfassen niemals Ihren Live-Standort.",
+  "privacy_use_of_data_title": "3. Verwendung der Daten",
+  "privacy_use_of_data_body": "Ihre Daten werden nur verwendet, um die Funktionen der App bereitzustellen. Wir verkaufen oder teilen Ihre Daten nicht mit Dritten.",
+  "privacy_user_rights_title": "4. Nutzerrechte",
+  "privacy_user_rights_body": "Gemäß der DSGVO haben Sie die folgenden Rechte:",
+  "privacy_user_rights_list1": "Zugriff auf Ihre Daten",
+  "privacy_user_rights_list2": "Ihre Daten herunterladen (Veranstaltungen, Notizen, Bewertungen)",
+  "privacy_user_rights_list3": "Löschen Ihrer Daten oder Ihres Kontos",
+  "privacy_user_rights_list4": "Ihre Informationen korrigieren oder ändern",
+  "privacy_data_retention_title": "5. Datenspeicherung",
+  "privacy_data_retention_body": "Ihre Daten werden so lange gespeichert, wie Ihr Konto aktiv ist. Sie können Ihr Konto jederzeit löschen.",
+  "privacy_contact_title": "6. Contact",
+  "privacy_contact_body": "Bei Fragen zu Ihren personenbezogenen Daten kontaktieren Sie uns bitte unter: evnt.trackr@gmail.com"
+}

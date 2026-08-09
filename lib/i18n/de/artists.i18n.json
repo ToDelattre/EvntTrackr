@@ -1,0 +1,17 @@
+{
+  "artist": "Künstler",
+  "artists": "Künstler",
+  "addArtist": "Künstler hinzufügen",
+  "viewArtist": "Künstler ansehen",
+  "rateArtist": "Künstler bewerten",
+  "performanceRating": "Performance",
+  "setlistRatingLabel": "Setlist",
+  "soundQualityRating": "Tonqualität",
+  "globalReview": "Globale Bewertung",
+  "noArtistsForEvent": "Keine Künstler für dieses Ereignis.",
+  "headliner": "Headliner",
+  "ratingSaved": "Bewertung erfolgreich gespeichert",
+  "artistSortOrderHeadliner": "Headliner",
+  "artistSortOrderAZ": "A-Z",
+  "artistSortOrderZA": "Z-A"
+}

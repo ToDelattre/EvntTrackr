@@ -1,0 +1,14 @@
+{
+  "myStats": "Mes Statistiques",
+  "totalPerformances": "Shows",
+  "mostSeenArtists": "Artistes les plus vus",
+  "bestPerformances": "Meilleures performances",
+  "festivals": "Festivals",
+  "concerts": "Concerts",
+  "eventDistribution": "Répartition des événements",
+  "stats_before": "Avant {minYearStr}",
+  "stats_email_subject": "[Statistiques]",
+  "didntFindWhatYouWereLookingFor": "Tu n'as pas trouvé ce que tu cherchais ?",
+  "tellUs": "Dis-le nous",
+  "expenses": "Dépenses"
+}

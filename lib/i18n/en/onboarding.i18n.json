@@ -1,0 +1,17 @@
+{
+  "welcomeTitle": "Welcome!",
+  "welcomeSubtitle": "Let's start by setting up your preferences for the best experience.",
+  "languageTitle": "Language",
+  "languageSubtitle": "Choose your preferred language",
+  "themeTitle": "Theme",
+  "themeSubtitle": "Customize the app appearance",
+  "dateFormatTitle": "Date Format",
+  "dateFormatSubtitle": "How do you prefer to read dates?",
+  "readyTitle": "All set!",
+  "readySubtitle": "You just need to log in or sign up to get started!",
+  "next": "Next",
+  "start": "Start",
+  "back": "Back",
+  "notificationsTitle": "Notifications",
+  "notificationsSubtitle": "Don't miss any of your events"
+}

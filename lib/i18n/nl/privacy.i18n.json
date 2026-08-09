@@ -1,0 +1,21 @@
+{
+  "privacyPolicy": "Privacybeleid",
+  "privacyPolicyTitle": "Privacybeleid",
+  "privacyPolicyContent": "Uw privacy is belangrijk voor ons.",
+  "privacy_intro_title": "1. Inleiding",
+  "privacy_intro_body": "EvntTrackr zet zich in voor de bescherming van uw persoonlijke gegevens in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR). Dit beleid legt uit hoe we uw informatie verzamelen, gebruiken en beschermen.",
+  "privacy_data_collected_title": "2. Verzamelde gegevens",
+  "privacy_data_collected_body": "Om EvntTrackr te gebruiken, moet u een account aanmaken met een e-mailadres et wachtwoord. Binnen de app kunt u evenementen maken met een locatie, datums en artiesten. We verzamelen nooit uw live locatie.",
+  "privacy_use_of_data_title": "3. Gebruik van gegevens",
+  "privacy_use_of_data_body": "Uw gegevens worden alleen gebruikt om de functies van de app te bieden. We verkopen of teilen uw gegevens niet met derden.",
+  "privacy_user_rights_title": "4. Gebruikersrechten",
+  "privacy_user_rights_body": "Onder de AVG heeft u de volgende rechten:",
+  "privacy_user_rights_list1": "Toegang tot uw gegevens",
+  "privacy_user_rights_list2": "Download uw gegevens (evenementen, notities, beoordelingen)",
+  "privacy_user_rights_list3": "Verwijder uw gegevens of account",
+  "privacy_user_rights_list4": "Corrigeer of wijzig uw informatie",
+  "privacy_data_retention_title": "5. Gegevensbewaring",
+  "privacy_data_retention_body": "Uw gegevens worden bewaard zolang uw account actief is. U kunt uw account op elk gewenst moment verwijderen.",
+  "privacy_contact_title": "6. Contact",
+  "privacy_contact_body": "Voor vragen over uw persoonlijke gegevens kunt u contact met ons opnemen via: evnt.trackr@gmail.com"
+}

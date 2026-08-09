@@ -1,0 +1,15 @@
+{
+  "titles": [
+    "Herinnering!",
+    "Het is bijna zover!",
+    "Maak je klaar!",
+    "Aankomend evenement!"
+  ],
+  "withTicket": "{name} vindt over {time} plaats. Vergeet je ticket niet!",
+  "withoutTicket": "{name} vindt over {time} plaats. Heb je je ticket al?",
+  "details": "Datum: {date} • Locatie: {location}",
+  "time1Week": "een week",
+  "time24h": "24 uur",
+  "channelName": "Evenement Herinneringen",
+  "channelDesc": "Meldingen om je te herinneren aan je aankomende evenementen"
+}

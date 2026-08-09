@@ -1,0 +1,45 @@
+image: ghcr.io/cirruslabs/flutter:stable
+
+stages:
+  - build
+  - deploy
+
+build_android:
+  stage: build
+  before_script:
+    - flutter doctor
+    - flutter pub get
+    - cp "$KEY_PROPERTIES" android/key.properties
+    - echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > android/app/upload-keystore.jks
+  script:
+    - "flutter build apk --release --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY"
+    - "flutter build appbundle --release --dart-define=SUPABASE_URL=$SUPABASE_URL --dart-define=SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY"
+    - "VERSION=$(grep '^version: ' pubspec.yaml | cut -d' ' -f2 | cut -d'+' -f1)"
+
+    - "find build/app/outputs/flutter-apk/ -name '*.apk' -exec cp {} EvntTrackr-v$VERSION-release.apk \\;"
+    - "sha1sum EvntTrackr-v$VERSION-release.apk | cut -d' ' -f1 > EvntTrackr-v$VERSION-release.apk.sha1"
+    - "cp build/app/outputs/bundle/release/app-release.aab EvntTrackr-v$VERSION-release.aab"
+  artifacts:
+    paths:
+      - "EvntTrackr-v*-release.apk"
+      - "EvntTrackr-v*-release.apk.sha1"
+      - "EvntTrackr-v*-release.aab"
+    expire_in: 1 week
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+deploy_packages:
+  stage: deploy
+  image: curlimages/curl:latest
+  script:
+    - "VERSION=$(grep '^version: ' pubspec.yaml | cut -d' ' -f2 | cut -d'+' -f1)"
+    - "APK_NAME=EvntTrackr-v$VERSION-release.apk"
+    - "SHA_NAME=$APK_NAME.sha1"
+    - "AAB_NAME=EvntTrackr-v$VERSION-release.aab"
+    - "curl --header \"JOB-TOKEN: $CI_JOB_TOKEN\" --upload-file $APK_NAME \"${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/evnttrackr/$VERSION/$APK_NAME\""
+    - "curl --header \"JOB-TOKEN: $CI_JOB_TOKEN\" --upload-file $SHA_NAME \"${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/evnttrackr/$VERSION/$SHA_NAME\""
+    - "curl --header \"JOB-TOKEN: $CI_JOB_TOKEN\" --upload-file $AAB_NAME \"${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/evnttrackr/$VERSION/$AAB_NAME\""
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  dependencies:
+    - build_android

@@ -1,0 +1,11 @@
+{
+  "profile": "Profile",
+  "memberSince": "Member since",
+  "totalEvents": "Events",
+  "totalArtists": "Artists",
+  "averageRating": "Average",
+  "viewMyStats": "View my stats",
+  "achievements": "Achievements",
+  "lastEvent": "Last event",
+  "nextEvent": "Next event"
+}

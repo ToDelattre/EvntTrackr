@@ -1,0 +1,70 @@
+name: evnttrackr
+description: "A Music Events tracker"
+publish_to: 'none'
+version: 2.3.0+15
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  supabase_flutter: ^2.5.3
+  flutter_svg: ^2.2.3
+  package_info_plus: ^9.0.0
+  url_launcher: ^6.2.6
+  flutter_riverpod: ^2.5.1
+  flutter_donation_buttons: ^0.4.10
+  shared_preferences: ^2.5.4
+  intl: any
+  fl_chart: ^1.1.1
+  pub_semver: ^2.2.0
+  upgrader: ^12.5.0
+  slang: ^4.14.0
+  slang_flutter: ^4.14.0
+  google_fonts: ^8.2.1
+  confetti: ^0.8.0
+  dynamic_color: 1.7.0
+  flutter_local_notifications: ^22.2.0
+  timezone: ^0.11.1
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.14.4
+  slang_build_runner: ^4.14.0
+  build_runner: ^2.4.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+fonts:
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/evnt-trackr.png
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/evnt-trackr.png
+    icon_background_color: "#FFFFFF"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/evnt-trackr.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/evnt-trackr.png"
+
+dependency_overrides:
+  simple_icons: ^16.23.0
